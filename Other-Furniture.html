@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bed-sets.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Furnuture Sets</title>
+
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+
+        .container h2 {
+            font-size: clamp(8px, 10vw, 50px);
+        }
+
+        .details {
+            margin-top: 100px;
+            padding: clamp(4px, 10vw, 20px);
+            text-align: center;
+        }
+
+        .details h2 {
+            font-size: clamp(8px, 10vw, 30px);
+            margin-bottom: 30px;
+        }
+
+        .details p {
+            font-size: clamp(4px, 10vw, 16px);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- WHATSAPP LOGO -->
+    <img src="images/8. Icons/wt-icon-Photoroom.png" class="whatsapp-logo">
+
+
+    <!-- HEADER STARTED -->
+    <header>
+        <div class="sale-tag">
+            Sale 30% | 40% Off
+        </div>
+        <div class="logo" id="logo">
+            <div class="logo-wrapper">
+                <img src="images/1. Logo/Logo.png" alt="logo" class="logo-img" id="logo-img">
+            </div>
+            <button class="ham-burger" id="ham-burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <div class="header-icons" id="header-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Seach here...">
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <p class="icon-para-1">Search</p>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <p class="icon-para-2">Account</p>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <p class="icon-para-3">Cart</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDED -->
+
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul id="nav-link">
+            <li class="return"><a href="index.html"> Back to Home </a></li>
+            <li><a href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
+                <div class="nav-categories">
+                    <a href="bed-sets.html">Bed sets</a>
+                    <a href="Other-Furniture.html">Others Furnitures</a>
+                </div>
+            </li>
+
+            <li><a href="#"> Office <i class="fa-solid fa-angle-down"></i></a>
+                <div class="nav-categories">
+                    <a href="office-chairs.html">Office Chairs</a>
+                    <a href="office-tables-desks.html">Office Tables & Desks</a>
+                </div>
+            </li>
+
+            <li><a href="#"> Kitchen <i class="fa-solid fa-angle-down"></i></a>
+                <div class="nav-categories">
+                    <a href="Kitchen-designs.html">Kitchen Designs</a>
+                </div>
+            </li>
+            
+            <li><a href="#"> Doors <i class="fa-solid fa-angle-down"></i></a>
+                <div class="nav-categories">
+                    <a href="venners-doors.html">Veneer Doors</a>
+                    <a href="panel-doors.html">Panel Doors</a>
+                </div>                
+            </li>
+
+            <li><a href="#"> Flooring <i class="fa-solid fa-angle-down"></i></a>
+            <div class="nav-categories">
+                <a href="flooring.html"> Flooring Designs </a>
+            </div>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="contact.html" id="contact-link">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- NAVBAR ENDED -->
+
+
+    <!-- MENU FOR HAM-BURGER -->
+    <div class="menu " id="menu">
+        <div class="menu-heading">
+            <h2>Menu</h2>
+            <i class="fa-solid fa-xmark" id="close-menu"></i>
+        </div>
+        <ul>
+            <li id="menu-link"><a href="#"> Home <i class="fa-solid fa-angle-down" id="menu-link-icon"></i></a></li>
+            <ul class="menu-category" id="menu-category">
+                <li><a href="bed-sets.html"> Bed Sets </a></li>
+                <li><a href="Other-Furniture.html"> Other Furnitures </a></li>
+            </ul>
+
+            <li id="menu-link-2"><a href="#"> Office<i class="fa-solid fa-angle-down" id="menu-link-icon-2"></i></a>
+            </li>
+            <ul class="menu-category" id="menu-category-2">
+                <li><a href="office-chairs.html"> Office Chairs </a></li>
+                <li><a href="office-tables-desks.html"> Office Table & Desk </a></li>
+            </ul>
+
+            <li id="menu-link-3"><a href="#"> Kitchen <i class="fa-solid fa-angle-down" id="menu-link-icon-3"></i></a>
+            </li>
+            <ul class="menu-category" id="menu-category-3">
+                <li><a href="kitchen-designs.html"> Kitchen Designs </a></li>
+            </ul>
+
+            <li id="menu-link-4"><a href="#"> Doors <i class="fa-solid fa-angle-down" id="menu-link-icon-4"></i></a>
+            </li>
+            <ul class="menu-category" id="menu-category-4">
+                <li><a href="venners-doors.html"> Veneers Doors </a></li>
+                <li><a href="panel-doors.html"> Panel Doors </a></li>
+            </ul>
+
+            <li id="menu-link-5"><a href="#"> Flooring <i class="fa-solid fa-angle-down" id="menu-link-icon-5"></i></a>
+            </li>
+            <ul class="menu-category" id="menu-category-5">
+                <li><a href="flooring.html"> Floor Designs </a></li>
+            </ul>
+
+            <li><a href="contact.html"> Contact Us </a></li>
+        </ul>
+
+        <div class="menu-search-bar">
+            <input type="text" placeholder="Seach here...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i class="fa-regular fa-user menu-user"></i>
+    </div>
+    <!-- HAM-BURGER ENDED -->
+
+    <main>
+        <div class="container">
+            <h2>Furniture sets</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/1st Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/1st Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show" id="icon-1"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide"
+                                        id="icon-2">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Linea King Size Bed</p>
+                        <p>Rs.437,805</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Chelsea King Size Bed</p>
+                        <p>Rs.265,455</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Sienna King Size Bed (Off-White Headboard)</p>
+                        <p>Rs.275,000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/4th Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/4th Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Alpen King Size Bed</p>
+                        <p>Rs.198,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/1st Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/1st Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show" id="icon-1"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide"
+                                        id="icon-2">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Linea King Size Bed</p>
+                        <p>Rs.437,805</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Chelsea King Size Bed</p>
+                        <p>Rs.265,455</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Sienna King Size Bed (Off-White Headboard)</p>
+                        <p>Rs.275,000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/4th Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/4th Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Alpen King Size Bed</p>
+                        <p>Rs.198,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/1st Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/1st Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show" id="icon-1"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide"
+                                        id="icon-2">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Linea King Size Bed</p>
+                        <p>Rs.437,805</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/2nd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Chelsea King Size Bed</p>
+                        <p>Rs.265,455</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/3rd Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Sienna King Size Bed (Off-White Headboard)</p>
+                        <p>Rs.275,000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="images/3. 1st Group Of Cards/4th Card Default.webp" class="default">
+                        <img src="images/3. 1st Group Of Cards/4th Card Hover.webp" class="hover">
+                        <div class="icon-container">
+                            <div class="icon-wrapper">
+                                <div class="icon-border search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <p class="search-para icon-label">Quick view</p>
+                            </div>
+                            <div class="icon-wrapper">
+                                <div class="icon-border heart">
+                                    <i class="fa-regular fa-heart icon-1 show"></i>
+                                    <img src="images/8. Icons/heart-red-svgrepo-com.svg" class="icon-2 hide">
+                                </div>
+                                <p class="heart-para icon-label">Add to wishlist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <p>new</p>
+                        <p>Alpen King Size Bed</p>
+                        <p>Rs.198,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="details">
+            <h2>Transform Your Bedroom with the Perfect Bed Set from Interwood</h2>
+            <p>The ideal bedroom set contains individual pieces of furniture that are commonly used in a bedroom. This
+                includes a bed, bedside tables, a dresser and mirror and can also include other pieces as well. Choosing
+                the right pieces in the right style and size helps you achieve a complete look for your bedroom, helping
+                you achieve comfort, storage and convenience for years to come.
+
+                At Interwood, we offer a collection of bed sets that are designed to meet your bedroom’s unique style &
+                space. Our bed sets are carefully designed to cater to your every need, whether you are looking for a
+                more classic and timeless look or something more minimal and contemporary. Our range of designs, sizes,
+                finishes and materials ensures that you find the perfect bed set to complement your unique tastes and
+                needs.
+
+                You can rest assured that all our bed sets come with our promise of high quality, maximum comfort and
+                durability, ensuring that they stand the test of time. With some of the most affordable bed set price in
+                Pakistan, we offer unmatched value backed by our expert service to ensure you find the bed set that’s
+                right for you.</p>
+        </div>
+
+        <!-- WISHLIST POPUP WITH JAVASCRIPT -->
+        <div class="popup">
+            <div class="popup-para-1 hide" id="p-1"><span><img src="images/8. Icons/tick.png"
+                        class="popup-img-1"></span>Added To Wishlist!</div>
+            <div class="popup-para-2 hide" id="p-2"><span><img src="images/8. Icons/undo.png"
+                        class="popup-img-2"></span> Removed From Wishlist!</div>
+        </div>
+        <!-- WISHLIST POPUP ENDED -->
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Column 1 Logo + About -->
+            <div class="footer-col">
+                <img src="images/1. Logo/logo-2.png" alt="Royal Interior Logo" class="footer-logo">
+                <p>Your comfort is our priority. Creating stylish, modern interiors that define your lifestyle.</p>
+            </div>
+
+            <!-- Column 2 Products -->
+            <div class="footer-col ft-col-2">
+                <h2>PRODUCTS</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Office</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Doors</a></li>
+                    <li><a href="#">Flooring</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 Services -->
+            <div class="footer-col">
+                <h2>SERVICES</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund & Replacement Policy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 Newsletter + Contact -->
+            <div class="footer-col ft-col-4">
+                <h2>GET IN TOUCH</h2>
+                <p>Stay updated with our latest interior designs and offers.</p>
+                <form class="newsletter">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="contact-info">
+                    <p><strong>Phone:</strong> +92-xxxxxxx655</p>
+                    <p><strong>Email:</strong> contact@royalinterior.com</p>
+                    <p><strong>Address:</strong> Karachi, Pakistan</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Royal Interior. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

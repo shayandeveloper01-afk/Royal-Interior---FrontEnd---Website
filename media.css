@@ -1,0 +1,175 @@
+@media (max-width: 1024px) {
+
+    :root {
+        --top-position-animation: 130px;
+    }
+
+    .counter-wrapper {
+        top: 130px;
+    }
+
+    header {
+        position: sticky;
+        top: -50px;
+        z-index: 40;
+    }
+
+    .search-bar input,
+    nav {
+        display: none;
+    }
+
+    .ham-burger {
+        display: flex;
+    }
+
+    .header-icons {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .header-icons {
+        display: none;
+    }
+
+    .card-details button {
+        font-size: 0.9rem;
+        padding: 0.5em 1em;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .discount-bg,
+    .counter-wrapper {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .menu-heading {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+    }
+
+    .menu-heading i {
+        position: absolute;
+        right: clamp(2px, 10vw, 10px);
+    }
+
+    .menu ul {
+        margin: 0;
+    }
+
+    .menu ul li {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul li i {
+        position: static;
+    }
+
+    .menu-search-bar {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+        margin: 20px auto;
+    }
+
+    .menu-search-bar input {
+        width: 100%;
+    }
+
+    .menu-user {
+        margin-left: 10px;
+    }
+
+    .popup {
+        display: block;
+        text-align: center;
+    }
+
+    .newsletter {
+        width: clamp(10px, 80vw, 300px);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer ul li,
+    footer p {
+        font-size: clamp(4px, 4vw, 16px);
+    }
+
+    .footer li {
+        font-size: clamp(4px, 60vw, 16px);
+    }
+}
+
+@media (max-width: 260px) {
+
+    .card-details button {
+        font-size: clamp(8px, 7vw, 14px);
+        padding: 4px;
+    }
+
+    .pre-order {
+        font-size: clamp(2px, 4vw, 13px);
+        bottom: 6px;
+    }
+
+    .ship-tag {
+        font-size: clamp(2px, 4vw, 13px);
+        bottom: 6px;
+    }
+
+    .ft-col-4 {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 100px) {
+
+    .cat-sec h2,
+    .container h2 {
+        font-size: 8px;
+    }
+
+    .card-details> :first-child,
+    .card-details> :nth-child(2),
+    .card-details> :nth-child(3),
+    .card-details> :nth-child(3)>span,
+    .card-details button {
+        font-size: 5px;
+    }
+
+    .pre-order {
+        font-size: 2px;
+    }
+}
